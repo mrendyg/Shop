@@ -2,7 +2,8 @@ const Header = () => {
 
     return (
         <nav>
-            <p>Hola</p>
+            <p>Hola desde Header</p>
+
         </nav>
     )
 }
