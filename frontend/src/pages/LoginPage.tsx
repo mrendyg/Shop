@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useNavigate, Navigate } from 'react-router-dom';
 import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
@@ -6,7 +5,6 @@ import { useAuthStore } from '../store/auth';
 import { loginRequest } from '../api/users';
 import Loader from '../components/Loader';
 import { toast } from 'react-hot-toast';
-
 
 
 const LoginPage = () => {
@@ -47,8 +45,8 @@ const LoginPage = () => {
   return (
     <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-[600px] lg:py-0">
       <Link to="/" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-   
-        <span>Shop Zone</span>
+        
+        <span>Shop</span>
       </Link>
         <div className="w-full md:w-[400px] lg:w-[500px] bg-slate-300 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

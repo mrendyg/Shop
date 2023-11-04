@@ -6,7 +6,6 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Loader from "../components/Loader";
 import toast from "react-hot-toast";
-import React from "react";
 
 const Home = () => {
     const { ref, inView } = useInView();
