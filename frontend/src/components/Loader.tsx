@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const Loader = () => (
   <div className="flex min-h-full items-center justify-center py-14  ">

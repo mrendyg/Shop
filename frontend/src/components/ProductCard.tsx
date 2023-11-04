@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Product } from "../Interfaces"
 import { Link } from "react-router-dom"
 // import cart store
