@@ -97,14 +97,14 @@ const Header = () => {
                     ) : (
                         <>
                           <Link
-                            to={'/'}
+                            to={'/login'}
                             className='bg-slate-400 p-2 px-4 rounded-lg text-black dark:bg-gray-900 dark:text-white' 
                           >
                             Log in
                           </Link>
 
                           <Link
-                            to={'/'}
+                            to={'/register'}
                             className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                           >
                             Sign up
@@ -166,7 +166,7 @@ const Header = () => {
                         <span className="sr-only">Open user menu</span>
                         <img
                           className="h-8 w-8 rounded-full"
-                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                          src="https://cdn.icon-icons.com/icons2/2859/PNG/512/avatar_face_man_boy_profile_smiley_happy_people_icon_181659.png"
                           alt=""
                         />
                       </Menu.Button>

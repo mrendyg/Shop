@@ -1,5 +1,3 @@
-
-
 const Foo = () => {
 
     return (
@@ -30,4 +28,5 @@ const Foo = () => {
     )
     
 }
+
 export default Foo;
